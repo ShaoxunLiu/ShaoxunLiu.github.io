@@ -20,6 +20,22 @@ src: url(data:font/ttf;base64,AAEAAAAQAQAABAAAR0RFRrzKwKgAAAIoAAACPkdQT1NgKk8jAA
     <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
 
     <title>Shaoxun Liu</title>
+    <style>
+    .p-3 > img.rounded {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: min(32rem, calc(100vh - 15rem)) !important;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+    @media (max-width: 991.98px) {
+      .p-3 > img.rounded {
+        width: min(24rem, 100%);
+        height: auto !important;
+      }
+    }
+    </style>
     <script>
     document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('.p-2 > h1').forEach(function (heading) {
